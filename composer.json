@@ -1,5 +1,9 @@
 {
     "name": "lixingxing/weixinapi",
+    "description": "wechatAPI-sdk",
+    "require": {
+        "php": "^7.2"
+    },
     "autoload": {
         "psr-4": {
             "Lixingxing\\WeixinApi\\": "src/"
@@ -10,5 +14,6 @@
             "name": "lixingxing",
             "email": "1348647935@qq.com"
         }
-    ]
+    ],
+    "license": "MIT"
 }

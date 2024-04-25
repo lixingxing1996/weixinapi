@@ -31,6 +31,7 @@ class MessageSendingApi extends WeixinApiBase
 
         // Send the request using the sendRequest method from the parent class
         return $this->sendRequest('/api/', $data);
+        
     }
 
 
