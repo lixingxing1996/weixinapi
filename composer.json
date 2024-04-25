@@ -1,9 +1,6 @@
 {
     "name": "lixingxing/weixinapi",
     "description": "wechatAPI-sdk",
-    "require": {
-        "php": "^7.2"
-    },
     "autoload": {
         "psr-4": {
             "Lixingxing\\WeixinApi\\": "src/"
