@@ -24,6 +24,8 @@ class MessageSendingApi extends WeixinApiBase
             'msgContent' => $msgContent,
         ];
 
+
+        
         // Include the atUserList if provided
         if ($atUserList !== null) {
             $data['atUserList'] = $atUserList;
@@ -31,7 +33,7 @@ class MessageSendingApi extends WeixinApiBase
 
         // Send the request using the sendRequest method from the parent class
         return $this->sendRequest('/api/', $data);
-        
+
     }
 
 
